@@ -30,12 +30,6 @@
     
     <string name="image_desc">Project Sponsors</string>
     
-     <!--   strings not needed any more
-    <string name="record_video">Record a video and share it with ppsp.me</string>
-    <string name="welcome_txt2">Click on a ppsp.me/&#8230; link and choose the ppsp_player app to open it</string>
-    <string name="sponsors">Project Sponsors/:</string>
-     -->
-    
     <string name="pref_stats">Show P2P info</string>
     <!-- For Arno'sSourceActivity -->
     <string name="streaming">Streaming !</string>

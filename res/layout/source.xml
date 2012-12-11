@@ -22,49 +22,54 @@
             android:layout_marginRight="20dp"
             android:orientation="horizontal" >
         
-			<ImageView
-			    android:layout_margin="10dp"
+                 <ImageView
+			android:layout_margin="10dp"
 		        android:id="@+id/led"
 		        android:layout_width="35dp"
 		        android:layout_height="35dp"
 		        android:layout_gravity="center_vertical"
 		        android:src="@drawable/led_green" />
             
-			<TextView 
-			    android:paddingLeft="0dp"
-			    android:paddingTop="12dp"
-			    android:paddingBottom="7dp"
-			    android:paddingRight="0dp"
-			    android:layout_width="wrap_content"
-	            android:layout_height="wrap_content"
+	         <TextView 
+			android:paddingLeft="0dp"
+			android:paddingTop="12dp"
+			android:paddingBottom="7dp"
+			android:paddingRight="0dp"
+			android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
 	    		android:id="@+id/status"
 		    	android:textColor="#FFFFFF"
 		    	android:textSize="17dp"
-		    	android:textStyle="bold" />
-        
+		    	android:textStyle="bold" />        
 		</LinearLayout>
-
     </RelativeLayout>
 
     <LinearLayout
         android:layout_width="wrap_content"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:layout_marginTop="@android:dimen/app_icon_size"
         android:orientation="vertical" >
 
-        <Button
+        <Button style="@style/MyDefaultButtonAppearance"
             android:id="@+id/button1"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
             android:layout_marginLeft="24dp"
             android:layout_marginTop="24dp"
+            android:layout_marginBottom="5dp"            
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp"
             android:text="Start" />
 
-        <Button
+        <Button style="@style/MyDefaultButtonAppearance"
             android:id="@+id/button2"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
             android:layout_marginLeft="24dp"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp"
             android:text="Stop" />
 
     </LinearLayout>

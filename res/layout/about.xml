@@ -39,7 +39,7 @@
         android:layout_below="@+id/textView1"
         android:layout_marginTop="21dp"
         android:text="This software development is leaded by KTH, TUDelft, and INRIA within project partially funded by EIT ICTLabs.\n\n
-This is free software (GNU LGPL) developed in community."
+        This is free software (GNU LGPL) developed in community."
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
 </RelativeLayout>
