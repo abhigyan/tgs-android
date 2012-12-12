@@ -2,6 +2,7 @@
 <resources xmlns:android="http://schemas.android.com/apk/res/android">
     <style name="PPSPTheme" parent="@android:style/Theme.Holo">
         <!-- Any customizations for PPSP app running on 4.0+ devices here -->
+        <item name="android:actionBarSize">60dp</item>
         <item name="android:textAppearance">@style/MyDefaultTextAppearance</item>  
         <item name="android:buttonStyle">@style/MyDefaultButtonAppearance</item>
         <item name="android:windowBackground">@color/my_custom_background_color</item>
